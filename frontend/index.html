@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Transactions Dashboard</h1>
+        
+        <div class="db-selection">
+            <div class="attribute-row">
+                <div class="attribute-column">
+                    <h2>MongoDB</h2>
+                    <div id="mongodb-attributes" class="attribute-group"></div>
+                </div>
+    
+                <div class="attribute-column">
+                    <h2>Neo4j</h2>
+                    <div id="neo4j-attributes" class="attribute-group"></div>
+                </div>
+            </div>
+    
+            <button onclick="submitSelection()">Submit Selection</button>
+        </div>            
+    </div>    
+
+</body>
+</html>
